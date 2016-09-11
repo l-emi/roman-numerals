@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body {
+    background-image: url('http://www.zingerbug.com/Backgrounds/background_images/white_marble_background_seamless.jpg');
+    background-repeat: repeat;
+    height: 100%;
+    width: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#leftpillar {
+    left: 0;
+    text-align: left;
+}
+
+#rightpillar {
+    right: 0;
+    text-align: right;
+}
+
+.pillars {
+    height: 100%;
+    width: auto;
+    display: block;
+    position: fixed;
+}
+
+#mid-box {
+    width: inherit;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+#converter-box {
+    background-color: #eeeeef;
+    border: double;
+    height: 50%;
+    width: 100%;
+    padding-bottom: 0.5em;
+}
+
+.texty {
+    text-align: center;
+    width: auto;
+    font-size: 2em;
+    border: solid 1px;
+    margin: 0px 10px;
+}
+
+.desc {
+    text-align:center;
+    padding: 20px 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.designed {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 0.7em;
+}
